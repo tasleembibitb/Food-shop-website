@@ -1,0 +1,71 @@
+/* Custom styles for specific elements */
+
+/* Change overall background color for the body */
+body {
+    background-color: #f0f4f8; /* Light blue-gray background */
+}
+
+/* Section-specific background colors */
+#home {
+    background-color: #ffebcd; /* Light beige for Home */
+    color: #333; /* Darker text for contrast */
+    margin-bottom: 50px;
+}
+
+#about {
+    background-color: #f08080; /* Light coral for About */
+    color: white; /* Light text for contrast */
+}
+
+#menu {
+    background-color: #e0f7fa; /* Light cyan for Menu */
+    color: #333;
+}
+
+#contact {
+    background-color: #b3e5fc; /* Light blue for Contact */
+    color: #333;
+}
+
+/* Menu item cards styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff; /* White background for cards */
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+}
+
+/* Footer background color */
+footer {
+    background-color: #333; /* Dark gray footer */
+    color: white; /* Light text for contrast */
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #ff6347; /* Tomato color for buttons */
+    border-color: #ff6347;
+}
+
+.btn-primary:hover {
+    background-color: #ff4500; /* Darker shade for hover */
+    border-color: #ff4500;
+}
+
+/* Navbar background color */
+header {
+    background-color: #333; /* Dark gray navbar */
+    color: white;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff6347; /* Tomato color on hover */
+}

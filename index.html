@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Shop</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="bg-dark text-white py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Food Shop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <!-- Home Section -->
+        <section id="home" class="text-center py-5 bg-light">
+            <h2 class="display-4">Welcome to Our Food Shop</h2>
+            <p class="lead">Your favorite meals, delivered fresh and fast!</p>
+            <button id="order-btn" class="btn btn-primary btn-lg">Order Now</button>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="text-center py-5">
+            <h2 class="display-5">About Us</h2>
+            <p class="lead">We are a family-owned food shop providing delicious meals to our customers for over 10 years. Our food is prepared with fresh ingredients, ensuring that every bite is flavorful and satisfying.</p>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="py-5">
+            <h2 class="display-5 text-center">Our Menu</h2>
+            <div class="row g-4">
+                <!-- Pizza -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="pizza.jpeg" class="card-img-top" alt="Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza</h5>
+                            <p class="card-text">Delicious cheese pizza topped with fresh ingredients.</p>
+                            <p><strong>Price: RS100.00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Burger -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="burger.jpeg" class="card-img-top" alt="Burger">
+                        <div class="card-body">
+                            <h5 class="card-title">Burger</h5>
+                            <p class="card-text">Juicy beef burger with fresh lettuce and tomatoes.</p>
+                            <p><strong>Price: RS80.00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pasta -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="pasta.jpeg" class="card-img-top" alt="Pasta">
+                        <div class="card-body">
+                            <h5 class="card-title">Pasta</h5>
+                            <p class="card-text">Classic Italian pasta with a rich tomato sauce.</p>
+                            <p><strong>Price: RS150.00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Biryani -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="biryani.jpeg" class="card-img-top" alt="Biryani">
+                        <div class="card-body">
+                            <h5 class="card-title">Biryani</h5>
+                            <p class="card-text">Spicy, aromatic rice dish with succulent chicken or beef.</p>
+                            <p><strong>Price: RS120.00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Juice -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="juice.jpeg" class="card-img-top" alt="Juice">
+                        <div class="card-body">
+                            <h5 class="card-title">Juice</h5>
+                            <p class="card-text">Freshly squeezed fruit juice, packed with vitamins.</p>
+                            <p><strong>Price: RS50.00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cold Drinks -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="colddrinks.jpeg" class="card-img-top" alt="Cold Drinks">
+                        <div class="card-body">
+                            <h5 class="card-title">Cold Drinks</h5>
+                            <p class="card-text">Refreshing cold drinks including soda and iced tea.</p>
+                            <p><strong>Price: RS30.00</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5 bg-light">
+            <h2 class="display-5 text-center">Contact Us</h2>
+            <form id="contact-form" class="mx-auto" style="max-width: 500px;">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea id="message" class="form-control" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Food Shop. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

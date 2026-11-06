@@ -28,11 +28,11 @@ Bootstrap is loaded from a CDN, so an internet connection is needed for the Boot
 ├── index.html       # Home, About, Menu, Contact sections
 ├── style.css        # Custom colours and card/button styling
 ├── script.js        # Order prompt and contact-form validation
-├── pizza.jpeg       # Menu photos
-├── burger.jpeg
-├── pasta.jpeg
-├── biryani.jpeg
-├── juice.jpeg
+├── Pizza.jpeg       # Menu photos
+├── Burger.jpeg
+├── Pasta.jpeg
+├── Biryani.jpeg
+├── Juice.jpeg
 └── colddrinks.jpeg
 ```
 
